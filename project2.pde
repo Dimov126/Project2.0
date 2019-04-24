@@ -19,11 +19,12 @@ void reset() {
 void draw() { 
   background(0);
   if(x >= 1350){
-    background(0);
+    background(100);
     textSize(100);
     text("Game Over",400,450);
     textSize(30);
     text("Press R to continue ..." ,500,530);
+    fill(255,0,0);
   }
     
   ellipse(x, y, diam, diam);
