@@ -23,7 +23,7 @@ void draw() {
     textSize(100);
     text("Game Over",400,450);
     textSize(30);
-    text("Press R to continue ..." ,500,530);
+    text("Press 'R' to continue ..." ,500,530);
     fill(255,0,0);
   }
     
